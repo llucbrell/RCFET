@@ -28,7 +28,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-uglify');
 
 
-  grunt.registerTask('default', ['jshint', 'shell']);
+  grunt.registerTask('default', ['jshint']);
   grunt.registerTask('build', ['jshint','uglify']);
  
 };
